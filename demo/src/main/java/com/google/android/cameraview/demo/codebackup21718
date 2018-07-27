@@ -1,0 +1,249 @@
+
+package com.google.android.cameraview.demo;
+
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.media.FaceDetector;
+import android.os.Bundle;
+import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.tzutalin.dlib.Constants;
+import com.tzutalin.dlib.FaceRec;
+import com.tzutalin.dlib.VisionDetRet;
+
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class MainActivity extends AppCompatActivity implements  ActivityCompat.OnRequestPermissionsResultCallback{
+    ImageView uiimage;
+    LinearLayout.LayoutParams lp;
+    FaceTrainer [] trainer;
+  FaceRec facerec;
+  FaceDetector.Face foundfaces[];
+  Button match;
+  Button trnbtn;
+  Button imgpickerbtn;
+    String[] permissions = new String[]{
+
+            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+    };
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        checkPermissions();
+        facerec = new FaceRec(Constants.getDLibDirectoryPath());
+                    trnbtn= (Button)findViewById(R.id.trainbtn);
+                    trnbtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Toast.makeText(MainActivity.this,"Training IMages",Toast.LENGTH_SHORT).show();
+                            trainimages();
+                            Toast.makeText(MainActivity.this,"Images Trained",Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                    imgpickerbtn=(Button)findViewById(R.id.btn);
+                    imgpickerbtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            pickimage();
+                        }
+                    });
+        lp=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+
+    }
+    public void pickimage(){
+        Intent intent= new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
+        intent.setType("image/*");
+        intent.putExtra("crop","true");
+        intent.putExtra("scale",true);
+        intent.putExtra("outputX",256);
+        intent.putExtra("outputY",256);
+        intent.putExtra("aspectX",1);
+        intent.putExtra("aspectY",1);
+        intent.putExtra("return-data",true);
+        startActivityForResult(intent,1);
+
+    }
+
+    @Override
+    public boolean isDestroyed() {
+        return super.isDestroyed();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+
+        LinearLayout layout;
+        if (resultCode != RESULT_OK) {
+            Toast.makeText(this, "Please select The Image", Toast.LENGTH_SHORT).show();
+        }
+        if (requestCode == 1) {
+            final Bundle extras = data.getExtras();
+            if (extras != null) {
+                Bitmap newpic = extras.getParcelable("data");
+                newpic=scaleDown(newpic,1000,true);
+               layout= (LinearLayout) findViewById(R.id.container);
+                List<VisionDetRet> faces=facerec.detect(newpic);
+                int i=0;
+                for(VisionDetRet face:faces){
+                        Log.i("face","results of lpp["+face.toString());
+                    int width=face.getRight()-face.getLeft();
+                    int height=face.getBottom()-face.getTop();
+                    Bitmap faceimg=null;
+                    int j=0;
+                    try {
+                         faceimg= Bitmap.createBitmap(newpic, face.getLeft()+j, face.getTop(), width, height);
+
+                    }catch (Exception e){
+                        continue;
+                    }
+                    ImageView widget=new ImageView(this);
+                    widget.setLayoutParams(lp);
+                    widget.setImageBitmap(faceimg);
+                    EditText edtxt=new EditText(this);
+                    edtxt.setMinimumHeight(25);
+                    edtxt.setLayoutParams(lp);
+                    layout.addView(widget);
+                    TextView txt= new TextView(this);
+                    txt.setLayoutParams(lp);
+                    txt.setText("Results Matched To ");
+                    layout.addView(txt);
+                    edtxt.setText("ggg");
+                    layout.addView(edtxt);
+                    i++;
+                }
+
+
+
+            }
+        }
+    }
+
+    public void TrainModelfaces(FaceTrainer [] faceTrainers){
+
+
+        for(FaceTrainer faces:faceTrainers){
+                if(faces==null){
+                    continue;
+                }
+            Bitmap img=faces.image;
+            String name=faces.namefield.getText().toString();
+            FileOutputStream out=null;
+       // File file=Constants.getDLibImageDirectoryPath()+"/"+name;
+            try{
+                out= new FileOutputStream(name);
+                img.compress(Bitmap.CompressFormat.JPEG,500,out);
+            }catch (Exception e){
+                    e.printStackTrace();
+
+            }finally {
+
+               Log.i("mylog","Reached Finnaly");
+            }
+
+
+        }
+
+
+    }
+    public static Bitmap scaleDown(Bitmap realImage, float maxImageSize, boolean filter) {
+        float ratio = Math.min(
+                (float) maxImageSize / realImage.getWidth(),
+                (float) maxImageSize / realImage.getHeight());
+        int width = Math.round((float) ratio * realImage.getWidth());
+        int height = Math.round((float) ratio * realImage.getHeight());
+
+        Bitmap newBitmap = Bitmap.createScaledBitmap(realImage, width,
+                height, filter);
+        return newBitmap;
+    }
+
+   public void initdirs() {
+       Log.i("mylog","inittdier");
+
+       // create dlib_rec_example directory in sd card and copy model files
+        File folder = new File(Constants.getDLibDirectoryPath());
+        boolean success = false;
+        if (!folder.exists()) {
+            success = folder.mkdirs();
+            Log.i("mylog","folder created"+success);
+        }
+        if (success) {
+            File image_folder = new File(Constants.getDLibImageDirectoryPath());
+            image_folder.mkdirs();
+            if (!new File(Constants.getFaceShapeModelPath()).exists()) {
+                String path = "android.resource://" + getPackageName() + "/" + R.raw.shape_predictor_5_face_landmarks;
+                File src=new File(path);
+                File dst=new File(Constants.getFaceShapeModelPath());
+                try {
+                    FileUtils.copyFile(src, dst);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (!new File(Constants.getFaceDescriptorModelPath()).exists()) {
+                String path = "android.resource://" + getPackageName() + "/" + R.raw.dlib_face_recognition_resnet_model_v1;
+                File src=new File(path);
+                File dst=new File(Constants.getFaceDescriptorModelPath());
+                try {
+                    FileUtils.copyFile(src, dst);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }  }
+        }
+
+
+    }
+    private boolean checkPermissions() {
+        int result;
+        List<String> listPermissionsNeeded = new ArrayList<>();
+        for (String p : permissions) {
+            result = ContextCompat.checkSelfPermission(this, p);
+            if (result != PackageManager.PERMISSION_GRANTED) {
+                listPermissionsNeeded.add(p);
+            }
+        }
+        if (!listPermissionsNeeded.isEmpty()) {
+            ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[listPermissionsNeeded.size()]), 100);
+            return false;
+        }
+        return true;
+    }
+    public void trainimages(){
+
+        facerec.train();
+    }
+    public String findperson(Bitmap img){
+
+        List<VisionDetRet> results= facerec.recognize(img);
+      String name="No Match Found";
+      Log.i("loop","Outside The Loop");
+        for (VisionDetRet x:results){
+            name= " "+x.getLabel();
+            Log.i("loop","Loop is reached");
+        }
+        return name;
+    }
+
+}

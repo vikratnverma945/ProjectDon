@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4daaa6"
+    android:padding="12dp"
+    tools:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar"
+        android:layout_marginBottom="50dp"
+        android:text="Please Hold The Patiance Extracting Faces From device"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_red_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginTop="10dp"
+        android:text="Estimating Time"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:id="@+id/facetime"/>
+
+</RelativeLayout>

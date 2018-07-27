@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:17:1-31:12
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bfbc84a31d74bea90e99c9276a94f05b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\f2c7cc4dcd70760692b3e5697d54f326\AndroidManifest.xml:17:1-26:12
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\ead0fe36eea6839599be6f954b0f6115\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+	package
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:14:5-49
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:16:5-81
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-81
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:18:5-41:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:29:5-20
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bfbc84a31d74bea90e99c9276a94f05b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bfbc84a31d74bea90e99c9276a94f05b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:29:5-20
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\ead0fe36eea6839599be6f954b0f6115\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\ead0fe36eea6839599be6f954b0f6115\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:23:9-42
+activity#com.google.android.cameraview.demo.Welcome_Activity
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:24:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:28:27-74
+activity#com.google.android.cameraview.demo.MainActivity
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:31:9-33:61
+	android:screenOrientation
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:32:13-41
+service#com.google.android.cameraview.demo.OraganiserService
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:36:13-46
+activity#com.google.android.cameraview.demo.PeopleView
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:39:9-48
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:39:19-45
+activity#com.google.android.cameraview.demo.PersonImagesView
+ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:40:9-54
+	android:name
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:40:19-51
+uses-sdk
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:21:5-23:62
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:dlib] D:\androidPlatform\dlib-face-recognition-app\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bfbc84a31d74bea90e99c9276a94f05b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bfbc84a31d74bea90e99c9276a94f05b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\f2c7cc4dcd70760692b3e5697d54f326\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\f2c7cc4dcd70760692b3e5697d54f326\AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\ead0fe36eea6839599be6f954b0f6115\AndroidManifest.xml:7:5-43
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\ead0fe36eea6839599be6f954b0f6115\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\75ee5935896d24294578e15946b18427\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\475dd9d369fe700a5d42c36c8b2d7763\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\9bd15c10fa82448eb4b1586a9e581ff8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\f2c7cc4dcd70760692b3e5697d54f326\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\f2c7cc4dcd70760692b3e5697d54f326\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fb0625023158996d0becb966ce0866e2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\fb1a8c1a28c46147ff117c7256270044\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\dd0925c0d5b7b98e5e6bf0c3234a7492\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1e5c0cc596e05634b6198f318fb1d904\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from D:\androidPlatform\dlib-face-recognition-app\demo\src\main\AndroidManifest.xml:13:1-43:12 reason: com.tzutalin.dlib requested WRITE_EXTERNAL_STORAGE

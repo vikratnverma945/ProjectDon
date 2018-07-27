@@ -1,0 +1,135 @@
+
+//            uiimage=(ImageView)findViewById(R.id.uiimage);
+//            FaceRec rec= new FaceRec(Constants.getDLibDirectoryPath());
+//            Bitmap img = BitmapFactory.decodeResource(this.getResources(),R.drawable.friends);
+//                List<VisionDetRet> list =rec.detect(img);
+//                for (VisionDetRet x:list){
+//                   int width=x.getRight()-x.getLeft();
+//                    int height=x.getBottom()-x.getTop();
+//                    Log.i("mylog","values"+width+"hei"+height);
+//                  Bitmap temp=  Bitmap.createBitmap(img,x.getLeft(),x.getTop(),width,height);
+//                    uiimage.setImageBitmap(temp);
+//
+//
+//                }
+
+//                        Bitmap img = BitmapFactory.decodeResource(this.getResources(),R.drawable.friends);
+//            int width=img.getWidth();
+//            int height=img.getHeight();
+//            FaceDetector detector= new FaceDetector(width,height,5);
+
+//
+//            detector.findFaces(img,faces);
+//            for (FaceDetector.Face obj:faces) {
+//                Log.i("mylog","faces found");
+//            }
+//
+
+
+//            FaceRec rec= new FaceRec(Constants.getDLibDirectoryPath());
+//            rec.train();
+//            Log.i("mylog","Trained");
+//
+//            Bitmap img = BitmapFactory.decodeResource(this.getResources(),R.drawable.vikrantimage);
+//            List<VisionDetRet> results=rec.recognize(img);
+//            Log.i("mylog","is match found "+results.size());
+//
+//            for(VisionDetRet n:results){
+//                Log.i("mylog","inside the loop");
+//                Toast.makeText(this,"reslut"+n.getLabel(),Toast.LENGTH_SHORT).show();
+//
+//             }
+//            Log.i("mylog","outside the loop");
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        super.onCreate(savedInstanceState);
+
+        initdirs();
+        recongniser=new FaceRec(Constants.getDLibImageDirectoryPath());
+        setContentView(R.layout.activity_main);
+
+        Button btn =(Button)findViewById(R.id.btn);
+        trainer= new FaceTrainer[10];
+        foundfaces=new FaceDetector.Face[10];
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pickimage();
+            }
+        });
+       lp=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+    match=(Button)findViewById(R.id.match);
+    match.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            recongniser.train();
+            List<VisionDetRet> matched= recongniser.recognize(trainer[0].image);
+            for(VisionDetRet x:matched){
+                Log.i("mylog","relsultis matching with"+x.getLabel());
+            }
+        }
+    });
+
+
+
+facerec=new FaceRec(Constants.getDLibDirectoryPath());
+               List<VisionDetRet> faces=facerec.detect(newpic);
+               int i=0;
+               for(VisionDetRet face:faces){
+
+                   int width=face.getRight()-face.getLeft();
+                   int height=face.getBottom()-face.getTop();
+                   Bitmap faceimg=null;
+                   int j=0;
+                  try {
+                    //  faceimg= Bitmap.createBitmap(newpic, face.getLeft()+j, face.getTop(), width, height);
+
+                   }catch (Exception e){
+                      continue;
+                  }
+                   ImageView widget=new ImageView(this);
+                   widget.setLayoutParams(lp);
+                   widget.setImageBitmap(newpic);
+                   EditText edtxt=new EditText(this);
+                   edtxt.setMinimumHeight(25);
+                   edtxt.setLayoutParams(lp);
+                   layout.addView(widget);
+                   TextView txt= new TextView(this);
+                   txt.setLayoutParams(lp);
+                   txt.setText("Enter The Name OF Person");
+                   layout.addView(txt);
+                   edtxt.setText(findperson(newpic));
+                   layout.addView(edtxt);
+                   i++;
+               }
+                Button trainbtn= new Button(this);
+               trainbtn.setLayoutParams(lp);
+               trainbtn.setText("Train Model");
+               layout.addView(trainbtn);
+               trainbtn.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View v) {
+
+                //TrainModelfaces(trainer);
+                   }
+               });
+
+            }
+        }else{
+            Toast.makeText(this,"selection Error",Toast.LENGTH_SHORT).show();
+
+        }

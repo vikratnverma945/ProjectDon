@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\assets"/><source path="D:\androidPlatform\dlib-face-recognition-app\dlib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\androidPlatform\dlib-face-recognition-app\dlib\src\debug\assets"/></dataSet></merger>

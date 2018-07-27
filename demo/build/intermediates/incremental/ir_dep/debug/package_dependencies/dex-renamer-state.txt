@@ -1,0 +1,4 @@
+#Thu Jul 26 19:46:45 IST 2018
+base.0=D\:\\androidPlatform\\dlib-face-recognition-app\\demo\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

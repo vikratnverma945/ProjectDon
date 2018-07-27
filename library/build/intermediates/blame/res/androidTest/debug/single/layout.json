@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Vikrant\\Face Recognition Demo 1\\dlib-face-recognition-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\surface_view.xml",
+        "source": "C:\\Users\\Vikrant\\Face Recognition Demo 1\\dlib-face-recognition-app\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\surface_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vikrant\\Face Recognition Demo 1\\dlib-face-recognition-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera_view.xml",
+        "source": "C:\\Users\\Vikrant\\Face Recognition Demo 1\\dlib-face-recognition-app\\library\\src\\androidTest\\res\\layout\\activity_camera_view.xml"
+    }
+]

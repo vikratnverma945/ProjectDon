@@ -1,0 +1,47 @@
+[
+    {
+        "outputFile": "C:\\Users\\Vikrant\\Face Recognition Demo 1\\dlib-face-recognition-app\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 45,
+                    "endOffset": 765
+                },
+                "from": {
+                    "file": "C:\\Users\\Vikrant\\.android\\build-cache\\9289f30f6963b8f018a2519ec859fa7060fcdeed\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 770,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 1064
+                },
+                "from": {
+                    "file": "C:\\Users\\Vikrant\\Face Recognition Demo 1\\dlib-face-recognition-app\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 724,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1018
+                    }
+                }
+            }
+        ]
+    }
+]

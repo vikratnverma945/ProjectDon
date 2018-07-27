@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\androidPlatform\\dlib-face-recognition-app\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\androidPlatform\\dlib-face-recognition-app\\demo\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "690",
+                        "endColumns": "57",
+                        "endOffsets": "743"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}
