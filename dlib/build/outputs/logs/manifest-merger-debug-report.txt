@@ -1,49 +1,49 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
+ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:70-97
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:70-97
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:1-8:12
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:1-8:12
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:2:5-81
+ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:2:5-81
 	android:name
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:2:22-78
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:2:22-78
 application
-ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:3:5-6:19
+ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:3:5-6:19
 	android:supportsRtl
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:4:9-35
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:4:9-35
 	android:label
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:3:45-77
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:3:45-77
 	android:allowBackup
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml:3:18-44
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml:3:18-44
 uses-sdk
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		ADDED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
-		INJECTED from D:\androidPlatform\dlib-face-recognition-app\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		ADDED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml
+		INJECTED from D:\androidPlatform\ProjectDon\dlib\src\main\AndroidManifest.xml

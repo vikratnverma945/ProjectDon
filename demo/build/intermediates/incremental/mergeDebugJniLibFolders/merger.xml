@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\androidPlatform\dlib-face-recognition-app\demo\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\androidPlatform\dlib-face-recognition-app\demo\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\androidPlatform\ProjectDon\demo\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\androidPlatform\ProjectDon\demo\src\debug\jniLibs"/></dataSet></merger>

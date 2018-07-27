@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\androidPlatform\\dlib-face-recognition-app\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vikrant\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4137ecce6e96a46c039fe61c446aae8d\\res\\values-v21\\values-v21.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "D:\\androidPlatform\\dlib-face-recognition-app\\demo\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "D:\\androidPlatform\\ProjectDon\\demo\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjectDon.iml" filepath="$PROJECT_DIR$/ProjectDon.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dlib/dlib.iml" filepath="$PROJECT_DIR$/dlib/dlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dlib-face-recognition-app.iml" filepath="$PROJECT_DIR$/dlib-face-recognition-app.iml" />
     </modules>
   </component>
 </project>

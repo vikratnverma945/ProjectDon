@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\androidPlatform\\dlib-face-recognition-app\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml-rIN\\values-ml-rIN.xml",
+            "outputFile": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml-rIN\\values-ml-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vikrant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\75ee5935896d24294578e15946b18427\\res\\values-ml-rIN\\values-ml-rIN.xml",

@@ -1,76 +1,59 @@
 
 package com.google.android.cameraview.demo;
 
-import android.Manifest;
 import android.content.Intent;
-import android.content.pm.PackageManager;
+import android.content.res.TypedArray;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.FaceDetector;
 import android.os.Bundle;
-import android.provider.MediaStore;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.AdapterView;
+import android.widget.GridView;
 
 import com.tzutalin.dlib.Constants;
-import com.tzutalin.dlib.FaceRec;
-import com.tzutalin.dlib.VisionDetRet;
-
-import org.apache.commons.io.FileUtils;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.List;
 
+public class MainActivity extends ActionBarActivity {
+    private GridView gridView;
+    private GridViewAdapter gridAdapter;
 
-public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        setContentView(R.layout.activity_people_view);
-        Database db= new Database(this);
-        Cursor peopleresult=db.getDifferentPeople();
-        while(peopleresult.moveToNext()){
-            String name=peopleresult.getString(0);
-            String path= Constants.getDLibImageDirectoryPath()+ File.separator+name;
-            Log.i("people",path);
-            LinearLayout layout=(LinearLayout)findViewById(R.id.peopleviewcontainer);
-            ImageView imgview= new ImageView(this);
-            imgview.setTag(name);
-            TextView txt=new TextView(this);
-            txt.setText(name);
-            Bitmap img= BitmapFactory.decodeFile(path);
-            imgview.setImageBitmap(img);
-            imgview.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    ImageView imgv=(ImageView)v;
-                    String imgname=(String)imgv.getTag();
-                    Intent intent= new Intent(MainActivity.this,PersonImagesView.class);
-                    intent.putExtra("personname",imgname);
-                    startActivity(intent);
+        setContentView(R.layout.gallery_activity_main);
 
-                }
-            });
-            layout.addView(imgview);
-            layout.addView(txt);
+        gridView = (GridView) findViewById(R.id.gridView);
+        gridAdapter = new GridViewAdapter(this, R.layout.galler_grid_item_layout, getData());
+        gridView.setAdapter(gridAdapter);
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                ImageItem item = (ImageItem) parent.getItemAtPosition(position);
+                //Create intent
+                Intent intent = new Intent(MainActivity.this, Person_Images_View.class);
+                intent.putExtra("personname", item.getTitle());
+                intent.putExtra("image", item.getImage());
+
+                //Start details activity
+                startActivity(intent);
+            }
+        });
+    }
+        // Prepare some dummy data for gridview
+        private ArrayList<ImageItem> getData () {
+            final ArrayList<ImageItem> imageItems = new ArrayList<>();
+            Database db = new Database(this);
+            Cursor res = db.getDifferentPeople();
+            while (res.moveToNext()) {
+                Bitmap img = BitmapFactory.decodeFile(Constants.getDLibImageDirectoryPath() + File.separator + res.getString(0));
+                String name = res.getString(0);
+                imageItems.add(new ImageItem(img, name));
+            }
+            return imageItems;
         }
-              }
 
 
 }
