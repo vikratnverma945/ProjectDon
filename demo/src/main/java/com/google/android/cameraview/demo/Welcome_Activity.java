@@ -76,7 +76,7 @@ public class Welcome_Activity extends AppCompatActivity {
      */
     public void askforstorage(View view) {
        if(checkPermissions()){
-           setupdlibir();
+
            AlertDialog.Builder dialog=new AlertDialog.Builder(this);
            final EditText edt= new EditText(this);
            dialog.setView(edt);
@@ -89,9 +89,11 @@ public class Welcome_Activity extends AppCompatActivity {
                    extractfaces();
                }
            });
-        dialog.show();
 
-
+           setupdlibir();
+           Database  db= new Database(this);
+           db.delteallrecords();
+           dialog.show();
         }else{
         //  Toast.makeText(this,"Sorry We cant Continue Without Storage Permisions",Toast.LENGTH_LONG).show();
         }

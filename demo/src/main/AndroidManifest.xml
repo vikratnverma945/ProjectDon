@@ -36,8 +36,6 @@
             android:name=".OraganiserService"
             android:exported="false" />
 
-        <activity android:name=".PeopleView" />
-        <activity android:name=".PersonImagesView" />
         <activity android:name=".Person_Images_View"></activity>
     </application>
 

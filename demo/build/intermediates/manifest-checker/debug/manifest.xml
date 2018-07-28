@@ -51,8 +51,6 @@
             android:name="com.google.android.cameraview.demo.OraganiserService"
             android:exported="false" />
 
-        <activity android:name="com.google.android.cameraview.demo.PeopleView" />
-        <activity android:name="com.google.android.cameraview.demo.PersonImagesView" />
         <activity android:name="com.google.android.cameraview.demo.Person_Images_View" />
 
         <provider

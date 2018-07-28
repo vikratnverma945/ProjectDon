@@ -848,10 +848,6 @@
         "source": "C:\\Users\\vikrant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\75ee5935896d24294578e15946b18427\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_people_view.xml.flat",
-        "source": "D:\\androidPlatform\\ProjectDon\\demo\\src\\main\\res\\layout\\activity_people_view.xml"
-    },
-    {
         "merged": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\vikrant\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4137ecce6e96a46c039fe61c446aae8d\\res\\layout\\design_bottom_navigation_item.xml"
     },
@@ -1286,10 +1282,6 @@
     {
         "merged": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\vikrant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\75ee5935896d24294578e15946b18427\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_person_images_view.xml.flat",
-        "source": "D:\\androidPlatform\\ProjectDon\\demo\\src\\main\\res\\layout\\activity_person_images_view.xml"
     },
     {
         "merged": "D:\\androidPlatform\\ProjectDon\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",

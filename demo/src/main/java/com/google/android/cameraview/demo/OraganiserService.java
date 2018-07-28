@@ -57,21 +57,6 @@ public class OraganiserService extends Service {
 
         searchfornewfaces();
 
-
-
-
-//        load_time=0;
-//        Toast.makeText(this,"Searching for People in YOur device Please wait Estimated time-="+estimatedtime(Environment.getExternalStorageDirectory())+"Minutes",Toast.LENGTH_LONG).show();
-//     AsyncTask task= new AsyncTask() {
-//         @Override
-//         protected Object doInBackground(Object[] objects) {
-//             FaceOrganiser facelib;
-//             facelib= new FaceOrganiser();
-//            facelib.organiseimages(db);
-//             return null;
-//         }
-//     };
-//    task.execute();
         return super.onStartCommand(intent, flags, startId);
     }
 
@@ -145,9 +130,10 @@ public class OraganiserService extends Service {
                         }
                         Bitmap img = BitmapFactory.decodeFile(path);
                         List<VisionDetRet> foundfaces = faceRec.recognize(img);
-                        Log.i("organise", "Checking image for faces " + path);
+                        Log.i("accuracy", "Checking image for faces " + path);
                         for (VisionDetRet faces : foundfaces) {
-                            Log.i("organise", "Image" + path + "matched to the face" + faces.getLabel());
+                            Log.i("accuracy", "Image" + path + "matched to the face" + faces.getLabel());
+                            Log.i("accuracy","Confidence is"+faces.getConfidence());
                             PersonRecord personRecord= new PersonRecord(faces.getLabel(),path,"true");
                             personRecord.savetodb(db);
                         }
@@ -245,7 +231,7 @@ public class OraganiserService extends Service {
      * @param img
      */
     public static void organiseBitmap(Bitmap img,String imgpath){
-        img=scaleDown(img,1000,true);
+       img=scaleDown(img,500,true);
         List<VisionDetRet> faces=faceRec.detect(img);
         for(VisionDetRet face:faces){
 
@@ -290,21 +276,6 @@ public class OraganiserService extends Service {
         }
     }
 
-    /**
-     * Check if the given image is matched to th known faces in dlib
-     * @param img
-     * @return
-     */
-    public boolean matchface(Bitmap img,String imgpsth){
-        List<VisionDetRet> results= faceRec.recognize(img);
-        int i=0;
-        for(VisionDetRet face:results){
-            Log.i("my","match found in :"+face.getLabel());
-            if(i==results.size())
-                return true;
-        }
-        Log.i("my","No match fpound for result");
-        return false;
-    }
+
 
 }

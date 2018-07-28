@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
-INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
-INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
-INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
+ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:17:1-31:12
 MERGED from [:dlib] D:\androidPlatform\ProjectDon\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bfbc84a31d74bea90e99c9276a94f05b\AndroidManifest.xml:2:1-11:12
@@ -19,20 +19,20 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\vikrant\.gradl
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\ca1b45fdf4eb146b3949c41346c80bcf\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\a84553f78d172bc7c83cbcc40d4b395c\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1d765b58c25cc224c4d12108af74ea20\AndroidManifest.xml:17:1-31:12
-INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
-INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
-INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
+INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
 	package
 		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:14:5-49
 		INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
 		INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
-		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
+		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
 		INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
-		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12
+		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12
 		INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:11-69
@@ -43,7 +43,7 @@ MERGED from [:dlib] D:\androidPlatform\ProjectDon\dlib\build\intermediates\manif
 	android:name
 		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:16:22-78
 application
-ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:18:5-42:19
+ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:18:5-40:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:29:5-20
 MERGED from [:dlib] D:\androidPlatform\ProjectDon\dlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
@@ -108,18 +108,10 @@ ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:35:9-
 		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:37:13-37
 	android:name
 		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:36:13-46
-activity#com.google.android.cameraview.demo.PeopleView
-ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:39:9-48
-	android:name
-		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:39:19-45
-activity#com.google.android.cameraview.demo.PersonImagesView
-ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:40:9-54
-	android:name
-		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:40:19-51
 activity#com.google.android.cameraview.demo.Person_Images_View
-ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:41:9-65
+ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:39:9-65
 	android:name
-		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:41:19-53
+		ADDED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:39:19-53
 uses-sdk
 INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml
@@ -195,4 +187,4 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\vikrant\.gradle
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\vikrant\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4137ecce6e96a46c039fe61c446aae8d\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-44:12 reason: com.tzutalin.dlib requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\androidPlatform\ProjectDon\demo\src\main\AndroidManifest.xml:13:1-42:12 reason: com.tzutalin.dlib requested WRITE_EXTERNAL_STORAGE

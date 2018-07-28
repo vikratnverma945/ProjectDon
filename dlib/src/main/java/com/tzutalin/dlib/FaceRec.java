@@ -86,4 +86,5 @@ public class FaceRec {
 
     @Keep
     private synchronized native VisionDetRet[] jniBitmapRec(Bitmap bitmap);
+
 }

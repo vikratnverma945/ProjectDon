@@ -30,11 +30,12 @@ public final class Constants {
 
     public static String getFaceShapeModelPath() {
         String targetPath = getDLibDirectoryPath() + File.separator + "shape_predictor_5_face_landmarks.dat";
-        return targetPath;
+       return targetPath;
     }
 
     public static String getFaceDescriptorModelPath() {
-        String targetPath = getDLibDirectoryPath() + File.separator + "dlib_face_recognition_resnet_model_v1.dat";
+       String targetPath = getDLibDirectoryPath() + File.separator + "dlib_face_recognition_resnet_model_v1.dat";
+
         return targetPath;
     }
 }
